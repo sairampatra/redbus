@@ -1,0 +1,412 @@
+@media screen and (max-width:908px) {
+    nav {
+        grid-template-columns: 11% 5% 138px 10% auto;
+        /* border: 2px solid red; */
+    }
+
+    .fa-headphones {
+        margin-right: 21px;
+    }
+
+
+    .bigdiv {
+        width: 92%;
+
+    }
+}
+
+@media screen and (max-width:697px) {
+    nav {
+        display: none;
+    }
+
+    .burger {
+        z-index: 2;
+        background: white;
+        height: 50px;
+        width: 100%;
+        /* background: blue; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+    }
+
+    .log img {
+        width: 35px;
+        cursor: pointer;
+        padding: 10px 12px;
+    }
+
+
+    .ham i {
+        /* width: 10px; */
+        /* font-weight: 20px !important; */
+        font-size: 18px !important;
+    }
+
+    .ham {
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .header {
+        padding-top: 0px;
+    }
+ 
+}
+
+@media screen and (max-width:697px) {
+    .title h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:581px) {
+    .title h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1128px) {
+    .innertext {
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        margin-right: 48px;
+    }
+
+    .title {
+
+        justify-content: end;
+
+    }
+
+    .inputgrid {
+width: 79%;
+        grid-template-columns: 0.86fr 1fr 0.8fr 1fr;
+
+    }
+
+    .from {
+
+        grid-template-columns: 0.33fr 1fr;
+    }
+    .searchbus h2 {
+        color: white;
+        font-weight: 600;
+        font-size: 21px;
+        margin: 12px;
+    }
+    .leavbusimg {
+        padding-left: 7px;
+    }
+    .inputto label {
+        transform: translateX(-42px);
+    }
+}
+@media screen and (max-width:939px){
+    .inputgrid{
+        display: none;
+    }
+    .phoneinputgrid {
+        display: flex;}
+    .title {
+        justify-content: center;
+        /* font-size: 2vh; */
+        margin: 6px;
+    }
+    .title h1 {
+        color: white;
+        font-size: 26px;
+        /* font-size: -webkit-xxx-large; */
+        font-weight: 600;
+        /* padding-right: 87px; */
+        /* padding-left: 80px; */
+        padding-top: 52px;
+        margin-left: 62px;
+    }
+    .innertext {
+        flex-direction: column;
+        justify-content: start;
+        align-items: end;
+        margin-right: 48px;
+    }
+   
+}
+@media screen and (max-width:696px) {
+    .inputgrid{
+        display: none;
+    }
+    .phoneinputgrid {
+        display: flex;
+    margin-left: 86px;
+    width: 311px;
+    height: 34%;
+    margin-top: 91px;
+}
+}
+        .innertext {
+           
+            align-items: center;
+        }
+        @media screen and (max-width:617px){
+            .trending h2 {
+                font-weight: 400;
+                font-size: 26px;
+                width: 170px;
+            }
+        }
+
+      
+        @media screen and (max-width:424px){
+  .trending button {
+            width: 95px;
+            height: 38px;
+            border-radius: 50px;
+            border: 1px solid gray;
+            background: white;
+            color: rgb(16, 52, 217);
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .trending h2 {
+            font-weight: 400;
+            font-size: 20px;
+            width: 170px;
+        }
+        }
+        
+        @media screen and (max-width:903px){
+            .trainticket {
+                background-image: url(https://s3.rdbuz.com/web/images/homeV2/AboutUs/aboutUsImg.svg);
+              padding: 14px;
+                box-sizing: border-box;
+              
+                display: grid;
+                grid-template-columns: 1fr;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .trainimg{
+                display: none;
+            }
+            
+        }@media screen and (max-width:670px){
+            .trainticketinfo h1 {
+                font-size: 30px;
+            }
+            
+        }@media screen and (max-width:428px){
+            .trainticketinfo {
+               
+                align-items: center;
+            }
+            
+        }@media screen and (max-width:714px){
+            .refer img {
+                width: 80%;
+                height: 90px;
+                display: none;
+            }
+            
+        }
+        @media screen and (max-width:1067px){
+            .app {
+                box-sizing: border-box;
+                padding-right: 117px;
+                /* padding-bottom: 61px; */
+                background-position: left;
+            }
+            .download {
+                gap: 12%;
+                justify-content: center;
+                margin: auto;
+            }
+            .rating{
+                display: none;
+            }
+            .qr h3 {
+                color: white;
+                font-weight: 700;
+                width: 166px;
+            }
+            .androidapp h3 {
+                font-weight: 700;
+                width: 183px;
+            }
+        }
+        @media screen and (max-width:580px){
+            .app {
+              
+                height: 372px;
+            }
+            .app h1 {
+                width: 100%;
+                color: white;
+                font-weight: 500;
+                font-size: 32px;
+                text-align: center;
+                margin-left: 39px;
+            }
+            .download {
+                gap: 12%;
+                justify-content: center;
+                margin: auto;
+            }
+        }
+        @media screen and (max-width:421px){
+            .download {
+                height: 216px;}
+            .qr {
+                /* border: 2px solid white; */
+                width: 88px;
+                height: 161px;}
+                .androidapp img {
+                    width: 127px;
+                    cursor: pointer;
+                }
+                .qr h3 {
+                    color: white;
+                    font-weight: 700;
+                    width: 166px;
+                    font-size: 18px;
+                }
+                .androidapp h3 {
+                    font-weight: 700;
+                    width: 183px;
+                    font-size: 17px;
+                }
+        }
+        @media screen and (max-width:1067px){
+            .staffqulity{
+               
+                background: rgb(35 48 88 / 90%);}
+        }
+        @media screen and (max-width:889px){
+            .staffqulity {
+               
+                width: 100%;
+               
+                align-items: center;
+            }
+        }
+        @media screen and (max-width:694px){
+            .operators {
+                height: 295px;}
+            .rtc h2 {
+               
+                font-size: 26px;
+                width: 187px;
+            }
+            
+
+.rtc button {
+   
+    height: 46px;
+}
+        }
+        @media screen and (max-width:1104px){
+            .operators{
+                height: 264px;
+               
+                overflow-y: auto;
+            
+            }
+        }
+        @media screen and (max-width:909px){
+            .dealsbanner {
+                gap: 23px;
+                padding: 15px 19px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-size: cover;
+                /* width: 81%; */
+                background-repeat: no-repeat;
+                background-image: url(https://st.redbus.in/seo/common/redDeals_bg.webp);
+                border: 2px solid #e0e0e0;
+                box-sizing: border-box;
+                width: 100%;
+                /* height: 166px; */
+                /* padding: 44px; */
+                border-radius: 23px;
+                flex-direction: column;
+            }
+        }
+        @media screen and (max-width:588px){
+            .dealsbanner {
+                margin: 60px 0px;
+            }
+            ._20peroff h1 {
+                color: #4a4a4a;
+                font-size: 20px;
+                font-weight: 600;
+            }
+            .reddeals h1 {
+                font-weight: 300;
+                font-size: 32px;
+            }
+        }
+        @media screen and (max-width:557px){
+            .reddeals h1 {
+                font-weight: 300;
+                font-size: 24px;
+            }
+        }
+        @media screen and (max-width:676px){
+.qtopics{
+    flex-direction: column;
+}
+.faq h1 {
+    font-weight: 300;
+    font-size: 29px;
+}
+        }
+        @media screen and (max-width:960px){
+            .footerabout {
+                flex-direction: column;
+                justify-content: space-between;
+                display: flex;
+                /* border: 2px solid yellow; */
+                width: 86%;
+                /* height: 502px; */
+                margin: auto;
+                padding: 38px 0px;
+                gap: 40px;
+                align-items: center;
+            }
+            .aboutredbus {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+            }
+            .alllinksofredbus {
+                justify-content: space-between;
+                display: flex;
+                width: 100%;
+                gap: 27px;
+            }
+        }
+        @media screen and (max-width:572px){
+            .alllinksofredbus div h2 {
+                font-size: 14px;
+            }
+            .alllinksofredbus div a {
+                color: #3e3e52;
+                text-decoration: none;
+                font-weight: 300;
+                font-size: 12px;
+            }
+            .aboutredbus img {
+                width: 66px;
+            }
+            .aboutredbus p {
+                font-weight: 300;
+                font-size: 12px;
+            }
+            .our{
+                flex-direction: column;
+            }
+        }
